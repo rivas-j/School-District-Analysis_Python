@@ -1,25 +1,24 @@
-# School_District_Analysis
-Perform analysis of school district using Jupyter Notebook
+## Overview of the school district analysis
 
-The analysis should contain the following:
+Our group is fortunate to have been selected by the local school board to perform an audit of the district and the schools within it. The board provided us with two CSV files, the first containing data on every district school, the second containing data on every student in the district. Our primary analysis tool was Jupyter Notebook, initialized in an Acaconda PythonData developer environment. We used this tool to process, clean and analyze the data in the CSV files. 
 
-## Overview of the school district analysis: Explain the purpose of this analysis.
+After completing the first iteration of our analysis, the school board alerted us to some academic dishonesty at one of the local high schools. This prompted us to alter our findings by removing the 9th Grade reading and math test results from Thomas High School. Below you will see an in depth report of our new findings and how they differ from our initial analysis.
 
-## Results: Using bulleted lists and images of DataFrames as support, address the following questions.
+## Results
 
-- How is the district summary affected?
+- Outlined in the charts below, we can see that removing Thomas High School's 9th grade test scores reduced the overall passing percentage of in the district, but the effect was minimal. Surprisingly, there wasn't a difference in Average Reading Score, and a slight reduction in Average Math Score.
   - Below is the new District Summary
 ![new_district_summary](https://github.com/rivas-j/School_District_Analysis/blob/d5c769384fe0f5a82a989f4624969d2dc8d54e9d/Resources/new_district_summary.png)  
   - Below is the previous District Summary
 ![old_district_summary](https://github.com/rivas-j/School_District_Analysis/blob/d5c769384fe0f5a82a989f4624969d2dc8d54e9d/Resources/old_district_summary.png)
 
 
-- How is the school summary affected?
+- Comparing the two School Summaries below, we can see reduction across the board for Thomas High School after eliminating the erroneous grades. The only exception we see is a slight increase in the overall Reading Score, however this did not prevent the passing percentage of reading test takers from decreasing.
   - Below is the new School Sumary
 ![new_school_summary](https://github.com/rivas-j/School_District_Analysis/blob/d5c769384fe0f5a82a989f4624969d2dc8d54e9d/Resources/new_school_summary.png)
   - Below is the previous School Summary
 ![old_school_summary](https://github.com/rivas-j/School_District_Analysis/blob/d5c769384fe0f5a82a989f4624969d2dc8d54e9d/Resources/old_school_summary.png)
-- How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+- The good news for Thomas High School is that, while their passing percentages were down slightly, it maintained it's spot as the second best performing school in the district.
   - Below is the new Ranking of Top Performing Schools
 ![new_top_performing](https://github.com/rivas-j/School_District_Analysis/blob/d5c769384fe0f5a82a989f4624969d2dc8d54e9d/Resources/new_top_performing.png)
   - Below is the previous Ranking of Top Performing Schools
