@@ -19,8 +19,8 @@ Analyze student data across a local school district to confirm evidence of acade
 # <div align="center">Dataset</div>
 This analysis will utilize two CSV files, retrieved from an Amazon S3 host, to conduct the district level audit.
 
-- [Students_Complete](data/students_complete.csv): 39,170 rows of student data used for our analysis, in CSV format
-- [Schools_Complete](data/schools_complete.csv): 14 rows of data, containing data for all schools in the district in CSV format
+- [Students_Complete:](data/students_complete.csv) 39,170 rows of student data used for our analysis, in CSV format
+- [Schools_Complete:](data/schools_complete.csv) 14 rows of data, containing data for all schools in the district in CSV format
 
 # <div align="center">Tools Used</div>
 - **Python:** Programming language used to build automated auditing solution
