@@ -24,7 +24,7 @@ This analysis will utilize two CSV files, retrieved from an Amazon S3 host, to c
 
 # <div align="center">Tools Used</div>
 - **Python:** Programming language used to build automated auditing solution
-- **Pandas:** Open source Python library providing high performance analysis tools
+  - **Pandas:** Open source Python library providing high performance analysis tools
 - **Jupyter Notebook:** Open source web based application used to run our python code
 
 
