@@ -1,6 +1,6 @@
 # School District Analysis with Python
 
-![Image showcasing the tool](images/school.jpg)
+![School](images/school.jpg)
 
 ## <div align="center">Perform school district audit by building a python solution in jupyter notebook</div>
 
